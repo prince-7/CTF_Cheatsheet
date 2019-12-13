@@ -1,0 +1,7 @@
+Step 1: Download the file
+Step 2: Extract the hidden files using command
+            binwalk -e secret.txt
+            This creates an extracted folder that contains a hidden image file
+Step 3: Now  write command 
+           xxd hiddenflag.jpg
+Step 4: This command will open the file in hex format and at the end ofc hexdump you can find the flag ie. WinterCTF{Now_U_S33_m3!}
