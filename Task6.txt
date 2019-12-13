@@ -1,0 +1,6 @@
+Step 1: Download the file 
+Step 2: We need to guess the password so we will use brute-force
+Step 3: This command helps us find the password 
+        fcrackzip -u -l 10-11 -c a1 -p IEC2019000 findME.zip 
+Step 4: The FLAG is 
+         WinterCTF{Damn_i7_f33ls_g00d_to_be_a_gangsta}

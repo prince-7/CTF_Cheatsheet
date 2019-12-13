@@ -1,10 +1,14 @@
 SOME Useful Tools, links and commands
-1)binwalk -e <filenam> : Extracts hidden files
-2)steghide extract -sf <filename> :Extracts hidden text in the image
-3)xxd <file name> : Prints the Hex version of file
-4)grep "element" finds the element
-5)strings <filename> : gives the strings hidden in the file
+1)binwalk -e <filenam> : //Extracts hidden files
+2)steghide extract -sf <filename> : //Extracts hidden text in the image
+3)xxd <file name> : //Prints the Hex version of file
+4)grep "element" //finds the element
+5)strings <filename> // gives the strings hidden in the file
 6)hexedit <filename>
 7)java -jar steghide.jar
 8)pngcheck <filename>
 9)tar -xvf <filename>
+10)cat temp.txt | cut -d'(' -f2 | sort -n | cut -d"'" -f2 | tr -d "\n" ; echo      // used this command to obtain the flag from the java file having flag characters written in an scrambled order 
+11)fcrackzip -u -l 10-11 -c a1 -p IEC2019000 findME.zip     
+// this command helps us to find the password to a zip. -u : unzip -l: range of length -c: type of elements a1 means alphabets and numbers -p:sample password 
+
