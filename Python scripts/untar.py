@@ -1,3 +1,4 @@
+#This script helped  me to untar a series of 1000 files
 from os import system
 
 system('unar ./1000.tar')
