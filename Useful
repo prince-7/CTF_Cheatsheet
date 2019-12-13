@@ -1,0 +1,10 @@
+SOME Useful Tools, links and commands
+1)binwalk -e <filenam> : Extracts hidden files
+2)steghide extract -sf <filename> :Extracts hidden text in the image
+3)xxd <file name> : Prints the Hex version of file
+4)grep "element" finds the element
+5)strings <filename> : gives the strings hidden in the file
+6)hexedit <filename>
+7)java -jar steghide.jar
+8)pngcheck <filename>
+9)tar -xvf <filename>
