@@ -1,0 +1,12 @@
+This Task is Basic RSA Task
+
+c=ciphertext
+n=p*q
+p and q are primes 
+phi(totient)=(p-1)*(q-1)
+phi is n-1 if n is prime, you can check whether n is prime or composite from factordb
+e=65537 >>2^16+1 standard exponential value
+now 
+d = inverse(e , phi)  >> (e*d)%phi=1
+decrypted message can be obtained by >> m = pow(c,d,n)
+m is a number which can be converted to ascii Flag
