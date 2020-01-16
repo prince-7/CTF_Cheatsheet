@@ -1,5 +1,0 @@
-Step 1: Download the file
-Step 2: Open the file in https://futureboy.us/stegano/decinput.html  
-or just use the command 
-steghide extract -sf flag.jfif
-Step 3: This directly gives out the flag

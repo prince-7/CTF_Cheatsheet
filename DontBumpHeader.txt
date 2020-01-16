@@ -1,0 +1,3 @@
+1)First open the website in Postman.
+2)Then make a key value get request User-Agent and the value given in the source code.
+3)You will get a site link, make another get request using Referer and value as th elink of the site.
