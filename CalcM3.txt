@@ -1,0 +1,1 @@
+1)Use postman, post the url with key as expression and ;ls as key in body tab.
