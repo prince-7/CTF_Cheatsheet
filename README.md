@@ -4,6 +4,8 @@ HERE ARE SOME EXTREMELY USEFUL TOOLS AND COMMANDS
 
 
 SOME Useful Tools, links and commands
+
+
 1)binwalk -e <filenam> : //Extracts hidden files
 
 2)steghide extract -sf <filename> : //Extracts hidden text in the image
