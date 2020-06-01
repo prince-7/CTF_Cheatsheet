@@ -18,7 +18,7 @@ SOME Useful Tools, links and commands
 
 6)hexedit <filename>
 
-7)java -jar steghide.jar
+7)java -jar stegsolve.jar
 
 8)pngcheck <filename>
 
