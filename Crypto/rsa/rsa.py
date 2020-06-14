@@ -25,13 +25,21 @@ p = int(root(p_squared, 2))
 q = int(root(q_squared, 2))
 r = int(root(r_squared, 2)) 
 
-phi = (p - 1) * (r - 1)
-d = inverse(e, phi)
+phi1 = (p - 1) * (q - 1)
+d1 = inverse(e, phi1)
+phi2 = (q - 1) * (r -1)
+d2 = inverse(e, phi2)
+phi3 = (p - 1) * (r - 1)
+d3 = inverse(e, phi3)
 
 
-m = pow(C3, d, N3)
-flag = long_to_bytes(m).decode()
-print(flag)
+m1 = pow(C1, d1, N1)
+flag1 = long_to_bytes(m1).decode()
+m2 = pow(C2 ,d2 , N2)
+flag2 = long_to_bytes(m2).decode()
+m3 = pow(C3 , d3 , N3)
+flag3 = long_to_bytes(m3).decode()
+print(flag1 + flag2 + flag3)
 
 
 # flag{n0_0n3_3xp3ct5_th3_sp4nish_inquisiti0n!}
