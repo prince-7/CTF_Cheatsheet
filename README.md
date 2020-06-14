@@ -52,3 +52,17 @@ also use strace
 20)Basic Injection  if there is a hidden info in the data base then to leak the data type 'OR''=' in the info bar.
 
 21) 1 union select 1,TABLE_NAME, 3,4 from INFORMATION_SCHEMA.TABLES     input this code in the info bar of a website for sql attack using injection.
+
+
+
+22) Use this site for substitution https://quipqiup.com/
+
+23) Detect the DMFT Tools http://dialabc.com/sound/detect/index.html
+
+24) Online Stegnographic Decoder :- https://futureboy.us/stegano/decinput.html
+
+25) zsteg :- another great stego tool
+
+26) john the ripper :- tool for password cracking
+
+27) Postman great tool for web challs

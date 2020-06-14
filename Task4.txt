@@ -1,4 +1,0 @@
-Step 1: Use binwalk to extract the file hidden inside image.
-Step 2: use exiftool on the new image u found after extraction to see the metadata.
-Step 3: You will find a link inside metadata, which gives you the hidden data
-step 4: scan the qr code with your phone and you get the link

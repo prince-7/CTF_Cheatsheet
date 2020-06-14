@@ -1,2 +1,0 @@
-Use this site for substitution https://quipqiup.com/
-winterctf{brutal_substitution_decrypt}
