@@ -1,4 +1,4 @@
-# WinterCTF
+# CTF tools
 This Repo Contains Write-UPs for all Tasks 
 HERE ARE SOME EXTREMELY USEFUL TOOLS AND COMMANDS
 
