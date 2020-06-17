@@ -35,6 +35,7 @@ this command will find the password to username admin stored in database.
 * Basic Injection  if there is a hidden info in the data base then to leak the data type 'OR''=' in the info bar.
 * 1 union select 1,TABLE_NAME, 3,4 from INFORMATION_SCHEMA.TABLES     input this code in the info bar of a website for sql attack using injection.
 *  Postman great tool for web challs
+* If a website uses flask, then try using {{ 7*7 }}to see its working, then use {{ config }} in the text fields
 
 ## <a name = "misc">Misc</a>
 * Esoteric languages(pikalang, 2dfuck, brainfuck) use tio.run website, Malboge an esoteric language that looks like base 85.
