@@ -39,7 +39,7 @@ this command will find the information to username admin stored in database (SQL
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 *  Postman great tool for web challs
 * Robots -->>> url/robots.txt (shows hidden info)
-* If a website uses flask, then try using {{ 7*7 }}to see its working, then use {{ config }} in the text fields.
+* If a website uses flask, then try using {{ 7*7 }}to see its working, then use {{ config }}, {{request}},{{session}}, {{g}} in the text fields.
 * To post requests to php from terminal use curl -X POST "url"
 
 ## <a name = "misc">Misc</a>
