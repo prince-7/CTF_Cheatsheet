@@ -19,6 +19,7 @@ HERE ARE SOME EXTREMELY USEFUL TOOLS AND COMMANDS
  // used this command to obtain the flag from the java file having flag characters written in an scrambled order 
 * fcrackzip -u -l 10-11 -c a1 -p IEC2019000 findME.zip
 * fcrackzip -u -D -p rockyou.txt crackme.zip
+ 
 // this command helps us to find the password to a zip. -u : unzip -l: range of length -c: type of elements a1 means alphabets and numbers -p:sample password 
 * ltrace ./file     is a helphul command to see the functioning of a program
 also use strace
