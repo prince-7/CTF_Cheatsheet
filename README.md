@@ -4,6 +4,7 @@ HERE ARE SOME EXTREMELY USEFUL TOOLS AND COMMANDS
 ### [Forensics, Linux Tools and Commands](#linux)
 ### [Web](#web)
 ### [Misc](#misc)
+### [OSINT](#osint)
 
 ## <a name = "linux">Basic linux tools and Commands</a>
 * binwalk -e <filenam> : //Extracts hidden files
@@ -51,4 +52,9 @@ this command will find the information to username admin stored in database (SQL
 * Use this site for substitution https://quipqiup.com/
 * Detect the DMFT Tools http://dialabc.com/sound/detect/index.html
 * Online Stegnographic Decoder :- https://futureboy.us/stegano/decinput.html
+
+## <a name ="osint">OSINT, Investigation and CyberWeapons</a>
+* sherlock - track down profiles of a username.
+* nmap - see all the ports of a network
+* noisy -  create a lot of random traffic
 
