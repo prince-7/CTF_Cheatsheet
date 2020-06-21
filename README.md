@@ -44,6 +44,9 @@ this command will find the information to username admin stored in database (SQL
 * Robots -->>> url/robots.txt (shows hidden info)
 * If a website uses flask, then try using {{ 7*7 }}to see its working, then use {{ config }}, {{request}},{{session}}, {{g}} in the text fields.
 * To post requests to php from terminal use curl -X POST "url"
+* use hydra to brute force username and passwords.
+* use dirsearch to find hidden directories.
+* use nmap to see available ports.
 
 ## <a name = "misc">Misc</a>
 * Esoteric languages(pikalang, 2dfuck, brainfuck) use tio.run website, Malboge an esoteric language that looks like base 85.
