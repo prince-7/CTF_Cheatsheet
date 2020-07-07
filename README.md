@@ -47,6 +47,7 @@ this command will find the information to username admin stored in database (SQL
 * use hydra to brute force username and passwords.
 * use dirsearch to find hidden directories.
 * use nmap to see available ports.
+* Padding Oracle attacks :- https://phantominfosec.wordpress.com/2018/12/23/hackthebox-web-challenge-i-know-mag1k/
 
 ## <a name = "misc">Misc</a>
 * Esoteric languages(pikalang, 2dfuck, brainfuck) use tio.run website, Malboge an esoteric language that looks like base 85.
